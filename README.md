@@ -2,6 +2,10 @@
 
 ## Classe 1 2026
 
+### Aller au cours
+
+- [Cours](COURS.md)
+
 ### Installation de WAMP
 
 On installe WAMP sous Windows uniquement, ne passez pas par le lien officiel:
