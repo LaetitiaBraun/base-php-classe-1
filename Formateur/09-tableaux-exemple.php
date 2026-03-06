@@ -61,7 +61,7 @@ print "<h5>Fruits avant: $compte_avant dans la variable".' $fruits '."et fruits 
 <h3>Le tableau, contrairement à la plupart des langages, n'est pas un object</h3>
 <?php
 $date = new DateTime();
-var_dump($date);
+var_dump($fruits,$date);
 ?>
 </pre>
 </body>
