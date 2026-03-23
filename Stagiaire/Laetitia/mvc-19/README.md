@@ -20,3 +20,14 @@
 - Création du `.gitignore` vide (**! Important**)
 - Dossiers vide ? `.gitkeep`
 - Informer sur le projet ? `README.md`
+
+### Phase 2
+
+Création des dossiers
+important du site pour le
+MVC (Model View Controller)
+- `public` accessible à tous (**Frontend**)
+- `model` Dossier qui gère l'accès aux données (**Backend**)
+- `view` Dossier contenant les vues (templates) (**Backend**)
+- `controller` Dossier qui gère le lien entre les `view` et les `model` (Entre **Backend** et **Middle-end**)
+- `datas` - nos fichiers de préparation du travail
