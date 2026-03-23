@@ -23,11 +23,20 @@
 
 ### Phase 2
 
-Création des dossiers
-important du site pour le
-MVC (Model View Controller)
+Création des dossiers important du site pour le MVC (Model View Controller)
 - `public` accessible à tous (**Frontend**)
 - `model` Dossier qui gère l'accès aux données (**Backend**)
 - `view` Dossier contenant les vues (templates) (**Backend**)
 - `controller` Dossier qui gère le lien entre les `view` et les `model` (Entre **Backend** et **Middle-end**)
 - `datas` - nos fichiers de préparation du travail
+
+#### .gitkeep
+
+Mettez-y des `.gitkeep` dans chaque dossier et faites des commit.
+
+#### Création du config.php
+
+**AVANT** la création de `Stagiaire/Laetitia/mvc-19/README.md`, ouvrez `.gitignore` et mettez-y :
+```bash
+# Stagiaire/Laetitia/mvc-19/.gitignore
+```
