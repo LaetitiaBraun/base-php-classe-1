@@ -39,4 +39,22 @@ Mettez-y des `.gitkeep` dans chaque dossier et faites des commit.
 **AVANT** la création de `Stagiaire/Laetitia/mvc-19/README.md`, ouvrez `.gitignore` et mettez-y :
 ```bash
 # Stagiaire/Laetitia/mvc-19/.gitignore
+# On protège nos variables et constantes dangereuse
+# du fichier config.php
+config.php
 ```
+<?php
+# Stagiaire/Laetitia/mvc-19/config.php
+
+// constante (variable qui ne peut être redéfini pendant la durée du script)
+
+# __DIR__ constante magique qui donnera le chemin absolu vers la racine du projet
+const ROOT_PATH = __DIR__;
+
+Créez le fichier `config.php` à la racine du projet. Il est protéger grace au `.gitconfig`.
+
+### Phase 3
+
+#### Création du contrôlleur frontal
+
+Le front controller, nommé `public/index.php`, est le seul fichier `php` qui sera accésible à un utilisateur extèrne.
